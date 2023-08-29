@@ -8,9 +8,12 @@
 }
 
 .error__title {
-  color: #fff;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 30px;
+  line-height: 110%;
   text-align: center;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
