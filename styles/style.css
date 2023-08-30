@@ -78,9 +78,10 @@ ol {
 
 .search-form {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    gap: 40px;
+    align-items: start;
     font-size: 18px;
+    /*background: deepskyblue;*/
 }
 
 .title {
@@ -172,6 +173,7 @@ ol {
 }
 
 .button {
+    align-self: end;
     block-size: 34px;
     background: transparent;
     border: 1px solid var(--c-text-color);;
@@ -183,7 +185,6 @@ ol {
     text-align: center;
     color: var(--c-text-color);
     cursor: pointer;
-    margin: 3px;
 }
 
 .button:hover {
@@ -210,6 +211,7 @@ ol {
 
 .search-form__fieldset {
     border: none;
+    /*background: coral;*/
 }
 
 .search-form__fieldset-title {
@@ -261,7 +263,9 @@ ol {
 
 .search-form__checkbox-list {
     display: flex;
+    /*background: burlywood;*/
     gap: 15px;
+    align-content: start;
     font-family: var(--f-main-font);
     font-style: normal;
     font-weight: 400;
